@@ -25,4 +25,5 @@ export async function log(stack, level, pkg, message) {
   } catch (error) {
     console.error("Logger Error:", error);
   }
+  
 }
