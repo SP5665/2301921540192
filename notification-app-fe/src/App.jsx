@@ -6,7 +6,7 @@ import { log } from "./middleware/logger";
 
 export default function App() {
   useEffect(() => {
-    log(
+    log (
       "frontend",
       "info",
       "page",
